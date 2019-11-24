@@ -30,7 +30,7 @@ a.navbar-brand {
     .navbar-nav {
         .nav-link {
             font-size: 30px;
-            color: $black;
+            color: $font-color;
         }
     }
 }
@@ -52,5 +52,48 @@ canvas {
     left: 0;
     height: 100vh;
     width: 100vw;
-    background-color: $white;
+    background-color: $second-font-color;
 }
+
+.landing {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 50%;
+    text-align: center;
+
+    mark {
+        background-color: transparent;
+        color: $main-color;
+    }
+}
+
+
+.mark {
+    background-color: transparent;
+    color: $main-color;
+}
+
+#section1 {
+    .landing {
+        z-index: 1;
+        color: $font-color;
+    }
+}
+
+.btn-outline-primary {
+    border-color: $main-color;
+    color: $font-color;
+    transition: all ease 0.8s;
+    background-color: transparent;
+    font-size: 16px;
+    line-height: 1.375em;
+    font-weight: 400;
+}
+
+.btn-outline-primary:hover {
+    box-shadow: inset 150px 0 0 0 $main-color;
+    background-color: transparent;
+}
+

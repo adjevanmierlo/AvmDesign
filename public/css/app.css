@@ -11102,6 +11102,11 @@ a.text-dark:focus {
 
 body {
   font-family: Raleway;
+  background-color: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .navbar-brand img {
@@ -11214,5 +11219,12 @@ canvas {
 .btn-outline-primary:hover {
   box-shadow: inset 150px 0 0 0 #4f9f2d;
   background-color: transparent;
+}
+
+#section2 {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 100%;
 }
 

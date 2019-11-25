@@ -14,10 +14,12 @@
      <div id="section1">
         @include('home')
     </div>
-{{--
+
     <div id="section2">
-        @include('content-about-page')
+        @include('about')
     </div>
+
+    {{--
     <div id="section3">
         @include('content-contact-page')
         @include('footer')

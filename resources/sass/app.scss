@@ -9,7 +9,14 @@
 
 body {
     font-family: Raleway;
+    background-color: $second-font-color;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+// menu/navbar
 
 .navbar-brand img {
     padding: 1rem;
@@ -59,7 +66,7 @@ a.navbar-brand {
 
 .active a {
     color: $main-color !important;
-font-weight: 400;
+    font-weight: 400;
 }
 
 .navbar-light {
@@ -74,6 +81,8 @@ font-weight: 400;
     background-color: $second-font-color;
 }
 
+//canvas
+
 canvas {
     position: absolute;
     top: 0;
@@ -82,6 +91,8 @@ canvas {
     width: 100vw;
     background-color: $second-font-color;
 }
+
+//landingpage/home
 
 .landing {
     position: absolute;
@@ -96,7 +107,6 @@ canvas {
         color: $main-color;
     }
 }
-
 
 .mark {
     background-color: transparent;
@@ -125,3 +135,11 @@ canvas {
     background-color: transparent;
 }
 
+// wie ben ik page
+
+#section2 {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 100%;
+}

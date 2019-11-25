@@ -11118,10 +11118,9 @@ a.navbar-brand {
   z-index: 1;
 }
 
-.navbar-nav {
+.navbar-light .navbar-nav {
   z-index: 1;
   padding: 1rem;
-  background-color: transparent;
 }
 
 .navbar-light .navbar-nav .nav-link {

@@ -27,14 +27,10 @@ a.navbar-brand {
     z-index: 1;
 }
 
-.navbar-nav {
-    z-index: 1;
-    padding: 1rem;
-    background-color: transparent;
-}
-
 .navbar-light {
     .navbar-nav {
+        z-index: 1;
+        padding: 1rem;
         .nav-link {
             font-size: 30px;
             color: $font-color;
@@ -76,11 +72,11 @@ a.navbar-brand {
     }
 }
 
-#collapsibleNavbar{
+#collapsibleNavbar {
     background: transparent;
 }
 
-.fixed-top{
+.fixed-top {
     background: transparent !important;
 }
 

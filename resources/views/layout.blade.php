@@ -19,11 +19,12 @@
         @include('about')
     </div>
 
-    {{--
+
     <div id="section3">
-        @include('content-contact-page')
-        @include('footer')
+        @include('contact')
     </div>
+
+     {{--
      <div id="section4">
      @include('footer')
   </div>

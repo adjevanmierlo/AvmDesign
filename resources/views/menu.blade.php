@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md bg-light navbar-light">
+<nav class="navbar fixed-top navbar-expand-md bg-light navbar-light">
     <a class="navbar-brand" href="{{ url('/') }}"><img src="{{ asset('images/logo.png') }}"></a>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
   <span class="navbar-toggler-icon"></span>

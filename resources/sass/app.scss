@@ -76,6 +76,14 @@ a.navbar-brand {
     }
 }
 
+#collapsibleNavbar{
+    background: transparent;
+}
+
+.fixed-top{
+    background: transparent !important;
+}
+
 .navbar-collapse {
     z-index: 2;
     background-color: $second-font-color;
@@ -142,4 +150,13 @@ canvas {
     height: 100vh;
     position: absolute;
     top: 100%;
+}
+
+// contact page
+
+#section3 {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 200%;
 }

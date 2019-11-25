@@ -11166,6 +11166,14 @@ a.navbar-brand {
   border: none;
 }
 
+#collapsibleNavbar {
+  background: transparent;
+}
+
+.fixed-top {
+  background: transparent !important;
+}
+
 .navbar-collapse {
   z-index: 2;
   background-color: #ffffff;
@@ -11226,5 +11234,12 @@ canvas {
   height: 100vh;
   position: absolute;
   top: 100%;
+}
+
+#section3 {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 200%;
 }
 
